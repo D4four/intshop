@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Choose</class>
+ <widget class="QDialog" name="Choose">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>137</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QPushButton" name="back">
+     <property name="text">
+      <string>Назад</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="open">
+     <property name="text">
+      <string>Просмотр</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="edit">
+     <property name="text">
+      <string>Редактирование</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="create">
+     <property name="text">
+      <string>Создать</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
